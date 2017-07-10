@@ -1,0 +1,97 @@
+body{
+
+    color: cadetblue;
+}
+
+h1  {
+
+    text-align: center;
+}
+
+div {
+
+    display: inline;
+}
+#typeOverview, #chromosomeOverview{
+
+    float: left;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 2%;
+    padding: 2%;
+}
+
+#table{
+
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+    padding: 2%;
+}
+
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.legend {
+    font-size: 12px;
+    color: indigo;
+}
+
+.selected {
+
+    /*stroke-width: 5px;*/
+    stroke: purple !important;
+}
+
+.custom-rect {
+
+    fill: rgba(75, 91, 195, 0.5);
+    stroke: #ffffff;
+    stroke-width: 2px;
+}
+
+.selection{
+
+    fill: mediumpurple;
+}
+
+.hoverSelection {
+
+    fill: mediumpurple;
+}
+
+.text {
+
+    fill: rgba(75, 91, 195, 1);
+    text-align: center;
+    font-size: 13px;
+}
+
+button {
+
+    background-color: blueviolet;
+    border: none;
+    width: 200px;
+    margin-left: 40%;
+    color: #ffffff;
+}
+
+h3 {
+
+    text-align: center;
+}
+
+h2{
+
+    display: inline;
+    float: left;
+    width: 35%;
+    text-align: center;
+}
