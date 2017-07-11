@@ -1,6 +1,11 @@
 The website shows two different views on the Mutation dataset.
 
-I use d3.json to load data from the API url provided.
+I use d3.json to load data from the API url provided. Used Webstorm IDE
+
+main.js - contains the d3 code for view
+custom-css - all the css classes
+index.html - the main html we page
+vision.bmp - shows an alternate approach to the chromosome view
 
 Mutation Type View - shows the mutation type as a pie chart, the different pie slices are clickable
 
