@@ -47,7 +47,7 @@ div {
 .selected {
 
     /*stroke-width: 5px;*/
-    stroke: purple !important;
+    fill: mediumpurple;
 }
 
 .custom-rect {

@@ -157,7 +157,13 @@ var typePieChart = function (data) {
         .on('mouseover',function(){
 
             d3.select(this)
-                .style('cursor','pointer');
+                .style('cursor','pointer')
+                .classed('hoverSelection',true);
+        })
+        .on('mouseleave',function(){
+
+            d3.select(this)
+                .classed('hoverSelection',false);
         })
         .on('click', function(){
 
