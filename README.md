@@ -11,6 +11,8 @@ Click on One of the Mutation Type to update the Chromosome View and vice versa
 Selecting a chromosome after selecting a type will update both the views and vice versa(because filters to a list of the objects that 
 have selected type and selected chromosome)
 
+I print the list of the data when both the views are selected in console
+
 Limitations : 
 
  - Multiple Selections in one view is not supported
